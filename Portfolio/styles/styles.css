@@ -13,8 +13,13 @@ section{
     background: #123 url("../images/background.jpg");
     background-size: contain;
     background-blend-mode: multiply;
+    background-repeat: no-repeat;
     color: white;
     text-align: center;
+}
+
+li img{
+    height: 1em;
 }
 
 .greeting{
@@ -57,11 +62,6 @@ section{
 .columns{
     display: flex;
 }
-
-
-
-
-
 
 .col-left{
     width: 50%;
