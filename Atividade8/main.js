@@ -17,7 +17,7 @@ document.writeln("Nome do Aluno: "+ Aluno2.Nome + "<br>");
 document.writeln("RA: " + Aluno2.RA);
 document.writeln("<br><br>")
 
-var Aluno3 = new Object;
+var Aluno3 = new Object();
 Aluno3.Nome = "CCCCCCC";
 Aluno3.RA = "3333333";
 
