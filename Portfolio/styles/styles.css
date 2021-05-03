@@ -1,15 +1,13 @@
 body {
     margin: 0;
     font-family: "Poppins", sans-serif;
-
 }
 section{
-    padding: 4em 0;
+    padding: 4em 1em;
 }
 
 .intro{
     padding: 20vh 0 80vh 0;
-
     background: #123 url("../images/background.jpg");
     background-size: contain;
     background-blend-mode: multiply;
@@ -22,6 +20,23 @@ li img{
     height: 1em;
 }
 
+
+.containerBox1 {
+    transition: 500ms;
+    background: url("../images/Foto1.jpg");
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 1.5em;
+}
+
+.containerBox1:hover {
+    width: 220px;
+    height: 220px;
+}
+
 .greeting{
     padding: 4em 0;
     max-width: 900px;
@@ -29,13 +44,20 @@ li img{
     text-align: justify;
 }
 
+
+.postphoto{
+    padding-left: 15em;
+    padding-right: 1em;
+}
 .c{
     padding: 4em 0;
     max-width: 900px;
     margin: 0 auto;
     text-align: justify;
 }
-
+.fatec:hover{
+    height: 100px;
+}
 
 .college, .prem{
     background-color: #f4f4f4;
@@ -50,6 +72,7 @@ li img{
 
 .college img{
     height: 80px;
+    transition: 500ms;
     padding-right: 4rem;
     float: right;
 }
@@ -63,10 +86,7 @@ li img{
     display: flex;
 }
 
-.col-left{
-    width: 50%;
-}
-.col-right{
+.col-left, .col-right{
     width: 50%;
 }
 
